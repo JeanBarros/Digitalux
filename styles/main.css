@@ -1,27 +1,28 @@
   body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
-      color: #818181;
+      color: #7a889a;
   }
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: #68788c;
       font-weight: 600;
       margin-bottom: 30px;
   }
   h4 {
       font-size: 19px;
       line-height: 1.375em;
-      color: #303030;
+      color: #7a889a;
       font-weight: 400;
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #f4511e;
+      background-color: #eee;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
+      background: #000000 url("../images/light1.jpg") no-repeat center 40px;
   }
   .container-fluid {
       padding: 60px 50px;
@@ -30,11 +31,11 @@
       background-color: #f6f6f6;
   }
   .logo-small {
-      color: #f4511e;
+      color: #68788c;
       font-size: 50px;
   }
   .logo {
-      color: #f4511e;
+      color: #68788c;
       font-size: 200px;
   }
   .thumbnail {
@@ -49,13 +50,13 @@
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #f4511e;
+      color: #68788c;
   }
   .carousel-indicators li {
-      border-color: #f4511e;
+      border-color: #68788c;
   }
   .carousel-indicators li.active {
-      background-color: #f4511e;
+      background-color: #68788c;
   }
   .item h4 {
       font-size: 19px;
@@ -68,7 +69,7 @@
       font-style: normal;
   }
   .panel {
-      border: 1px solid #f4511e; 
+      border: 1px solid #102a46; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -76,13 +77,13 @@
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
+      border: 1px solid #102a46;
       background-color: #fff !important;
-      color: #f4511e;
+      color: #ffca04;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: #102a46 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -102,12 +103,12 @@
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #f4511e;
+      background-color: #ffca04;
       color: #fff;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color: #ffca04;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -117,11 +118,11 @@
       font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+      color: #102a46 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
+      color: #ffca04 !important;
+      background-color: #000 !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -130,7 +131,7 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #f4511e;
+      color: #68788c;
   }
   .slideanim {visibility:hidden;}
   .slide {
