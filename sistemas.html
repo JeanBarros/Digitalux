@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="styles/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -27,9 +26,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">QUEM SOMOS</a></li>
-        <li><a href="#services">SERVIÇOS</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#sistemas">SISTEMAS</a></li>
+        <li><a href="#services">AÇÕES</a></li>
+        <li><a href="#portfolio">CAMPANHAS & PROMOÇÕES</a></li>
         <li><a href="#pricing">PLANOS</a></li>
         <li><a href="#contact">CONTATO</a></li>
       </ul>
@@ -42,24 +41,29 @@
     <h3>Que tal uma ideia digital?</h3>
     <h1>DigitaLux</h1>
   <p>Soluções em aplicativos, sistemas e marketing digital</p> 
+  <form class="form-inline">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger" href="#contact">Contato</button>
+      </div>
+    </div>
+  </form>
 </div>
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<!-- Container (idVisual Section) -->
+<div id="sistemas" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Quem somos</h2><br>
-      <h4>
-        A DigitaLux acaba de nascer, mas não se deixe enganar por isso. Somos uma empresa fundada
-por profissionais com ampla exeperiência em tecnologia da informação, comunicação e estratégias de marketing.
-      </h4>
+      <h2>Sistemas</h2><br>
+      <h4>Aplicativo + Whatsapp + Facebook</h4>
       <br>
       <p>
-        Percebemos que a maioria das empresas deste segmento concentram seus esforços apenas em
-atender as grandes marcas do mercado e na maioria das vezes, não suprem todas as necesseidades
-que envolvem um projeto desde sua concepção até a geração de resultados para seus clientes.
-<a href="#">Continue lendo</a> e nos deixe esclarecer as ideias.
-      </p>
+          A Digitalux oferece uma solução para o seu atendimento. 
+          Uma ferramenta exclusiva que permite seus clientes conhecer seu 
+          cardápio e fazer pedido online a partir do Aplicativo, Whatsapp e Facebook.
+      </p>      
+      <br><button class="btn btn-default btn-lg" href="#contact">Veja como funciona</button>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -73,61 +77,33 @@ que envolvem um projeto desde sua concepção até a geração de resultados par
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
     </div>
     <div class="col-sm-8">
-      <h2>Nossa missão</h2>
-      <p>Levar a luz da tecnologia onde houver sombras - Essa é a nossa missão.<br>
-        Queremos que todas as empresas de pequeno e médio tenham sua marca na internet, 
-        através de um aplicativo, um anúncio ou de seu próprio site. 
-        Queremos que os escritório trabalhem mais com arquivos digitais e menos
-        com aqueles amontoados de papéis.
-        Queremos que sua empresa prospere junto com a nossa, de forma sustentável e honesta. 
-        Gerando empregos e resultados.</p>
+      <h2>Pedidos pelo App Exclusivo</h2>
+      <p>Tenha um Aplicativo com a marca da sua empresa. Seus clientes fazem o pedido diretamente através dele.<p>
+      <h2>Pedidos pelo Whatsapp</h2>              
+        <p>         
+        Deixe seu Whatsapp vender para você!<br>
+        Seu cliente é atendido automaticamente pelo Whatsapp! 
+        Ele recebe uma mensagem automática direcionando para o seu cardápio online e faz pedido pelo celular, 
+        sem necessidade de baixar nada.
+        </p>
+      <h2>Pedidos pelo Facebook</h2>
+      <p>Integração com a sua página no Facebook! 
       <br>
-      <h4><strong>visão:</strong> 
-        Ultimamente temos visto muitas empresas "fecharem as portas" antes do primeiro ano de vida. 
-        Lamentamos verdadeiramente cada vez que o nosso contador nos informa que perdeu mais um de seus 
-        clientes que não resistiu à fúria do mercado nacional. Seja pela concorrência, 
-        pelos altos impostos ou pela crise comercial. Mas nós dizemo: sim, é possível se manter ativo e competitivo
-        com investimentos de baixo custo em estratégias de publicidade, marketing e uma boa dose de
-        gestão organizacional.
-      </h4>
-      <br>
-      <p><strong>Nossos valores:</strong>
-        Adotamos o hábito de dizer: "Tamo junto" - Não só dizer, mas praticar. <br>
-        Dedicamos parte do tempo envolvido em nosso trabalho em enteder o negócio de cada parceiro, 
-        com o objetivo de propor a melhor estratégia. 
-        Acreditamos que fazendo isso lado a lado como nosso cliente, estamos, de fato, juntos.
-      </p>
+      O Cliente pode fazer o pedido diretamente pelo seu facebook de forma automática.</p>
     </div>
   </div>
 </div>
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>Serviços</h2>
-  <h4>O que fazemos</h4>
-  <br>
+  <h2>Como funciona</h2>
   <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>SOFTWARES</h4>
-      <p><a href="sistemas.html">Sistema de pedidos</a></p>
-      <p><a href="#">Cadastro de clientes</a></p>
-      <p><a href="#">Controle de estoque</a></p>
-      <p><a href="#">Sistema de orçamentos</a></p>
-      <p><a href="#">Relatórios</a></p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>APLICATIVOS</h4>
-      <p><a href="aplicativos.html">Pedidos Online</a></p>
-      <p>App + Facebook + WhatsApp</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>MARKETING DIGITAL</h4>
-      <p><a href="marketing.html#idVisual">Identidade visual</a></p>
-      <p><a href="marketing.html#services">Conheça nossas ações</a></p>
-      <p>Campanhas e promoções</p>
+    <div class="col-sm-12">
+      <ul>
+        <li>Você recebe o pedido através de um celular ou tablet.</li>
+        <li>O cliente recebe uma notificação da confirmação do pedido e o tempo estimado de entrega.</li>
+        <li>Você imprime o pedido e envia para produção.</li>
+      </ul>
     </div>
   </div>
   <br><br>
@@ -152,7 +128,7 @@ que envolvem um projeto desde sua concepção até a geração de resultados par
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
+  <h2>CAMPANHAS & promoções</h2><br>
   <h4>What we have created</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
@@ -285,7 +261,7 @@ que envolvem um projeto desde sua concepção até a geração de resultados par
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Taboão da Serra, SP</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
       <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
       <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
     </div>
@@ -312,14 +288,14 @@ que envolvem um projeto desde sua concepção até a geração de resultados par
 <div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
     function myMap() {
-    var myCenter = new google.maps.LatLng(-23.6212928, -46.8187687);
+    var myCenter = new google.maps.LatLng(41.878114, -87.629798);
     var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     var marker = new google.maps.Marker({position:myCenter});
     marker.setMap(map);
     }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCT0nGS5VyXgNu38aG79RHcVm1_svl4iEI&callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNqLIgPz7Im4PSCvm18dRVgy6jrquxt3A&callback=myMap"></script>
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
